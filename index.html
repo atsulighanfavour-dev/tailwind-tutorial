@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="./output.css" rel="stylesheet" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#1f1f1f] text-white p-4 overflow-y-hidden">
+    <div class="flex justify-center items-center h-screen relative bottom-12">
+      <div class="bg-black py-[127px] w-220 rounded-2xl">
+        <img
+          src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+          alt="Google"
+          class="w-10 h-10 relative bottom-19 left-10"
+        />
+
+        <div class="grid grid-cols-2 gap-13 px-10 relative bottom-10">
+          <div>
+            <h1 class="text-4xl">Sign in</h1>
+            <p class="mt-4">
+              with your Google Account. This account will be available to other
+              Google apps in the browser.
+            </p>
+          </div>
+
+          <div class="text-white">
+            <input
+              class="text-white w-92 h-13 border border-gray-200 rounded-md mt-2"
+              type="text"
+              placeholder="email or phone"
+            />
+
+            <a href="#" class="text-blue-300 mb-5">Forgot email?</a>
+          </div>
+        </div>
+
+        <div class="absolute right-64 bottom-50">
+          <p class="text-sm">
+            Not your computer? Use Guest mode to sign in privately.
+          </p>
+
+          <a
+            href="https://support.google.com/chrome/answer/6130773?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-300"
+            >Learn more about using Guest mode</a
+          >
+        </div>
+        <div class="absolute right-62 top-105">
+          <a href="#" class="text-blue-300 mr-10">Create account</a>
+
+          <button
+            class="bg-[#A8C7FA] text-[#1F3B73] px-6 py-2 rounded-full font-medium"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-139 absolute bottom-23 left-52 text-xs">
+      <select>
+        <option class="text-black">English (United States)</option>
+        <option class="text-black">Deutsch</option>
+        <option class="text-black">Español (España)</option>
+        <option class="text-black">Filipino</option>
+      </select>
+
+      <div class="flex gap-8">
+        <a
+          href="https://support.google.com/accounts?hl=en&visit_id=639187308603736201-1173184824&rd=2&p=account_iph#topic=3382296"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Help</a
+        >
+        <a
+          href="https://policies.google.com/privacy?gl=NG&hl=en-US"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Privacy</a
+        >
+        <a
+          href="https://policies.google.com/terms?gl=NG&hl=en-US"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Terms</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
