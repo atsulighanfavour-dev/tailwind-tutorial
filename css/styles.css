@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #141414;
+  overflow: hidden;
+}
+
+@media (max-width: 1028px) {
+  body {
+    background-color: rgb(37, 36, 36);
+  }
+}

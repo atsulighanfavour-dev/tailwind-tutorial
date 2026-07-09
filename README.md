@@ -1,2 +1,2 @@
 # tailwind-tutorial
-tailwind mastery with html
+tailwind mastery in html
